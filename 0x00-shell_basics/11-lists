@@ -1,12 +1,2 @@
 #!/bin/bash
-ls -la
-
-# List files in the parent directory
-cd ..
-ls -la
-
-# Return to the original directory
-cd -
-
-# List files in the /boot directory
-ls -la /boot
+ls -la; cd ..; ls -la; cd -; ls -la /boot
